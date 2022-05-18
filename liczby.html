@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ciągi liczbowe</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="baner1">
+        <h2>Poznaj Ciągi Liczbowe</h2>
+    </div>
+    <div id="baner2">
+        <a href="liczby.html"><h5>Ciągi arytmetyczne</h5></a>
+    </div>
+    <div id="baner3">
+        <a href="ciagi.html"><h5>Ciągi Fibonacciego</h5></a>
+    </div>
+    <div id="baner4">
+        <img src="obraz1.png" alt="Fibonacci" style="height: 80px;">
+    </div>
+
+    <div id="blok-lewy">
+        <ol type="number">
+            <li>ciągi arytmetyczne</li>
+            <li>ciągi geometryczne</li>
+            <li>ciąg Fibonacciego</li>
+        </ol>
+    </div>
+    <div id="blok-prawy">
+        <h2>Generowanie ciągu arytmetycznego</h2><br>
+        Pierwszy wyraz A1:<input type="number" name="number1" id="number1"><br>
+        Różnica ciągu R1:<input type="number" name="number2" id="number2"><br>
+        Liczba wyrazów w ciągu N:<input type="number" name="number3" id="number3"><br>
+        <button type="submit" onclick="skrypt()">Generuj Ciąg</button><br>
+        <p id="wynik"></p>
+    </div>
+
+    <div id="stopka">
+        <p>Autor: NI MA</p>
+    </div>
+</body>
+</html>
